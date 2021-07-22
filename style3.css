@@ -1,6 +1,4 @@
-/*
-    MAIN PAGE STYLE
-*/
+/* MAIN PAGE STYLE*/
 
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
 body {
@@ -51,32 +49,7 @@ a:focus {
 .nav-link {
   color: white !important;
 }
-#mainButton {
-  background: white !important;
-  color: black !important;
-  border: none;
-  width: 290px !important;
-  height: 39px !important;
-  text-align: center !important;
-  vertical-align: top !important;
-}
-
-.emptyDiv {
-  height: 30vh;
-  width: 100vh;
-}
-/*#centerName {
-  color: white;
-  justify-content: center !important;
-}
-#topCart {
-  color: white;
-  justify-content: end !important;
-}
-
- ---------------------------------------------------
-    SIDEBAR STYLE
------------------------------------------------------ */
+/*SIDEBAR STYLE */
 
 #sidebar {
   height: 100%;
@@ -214,10 +187,11 @@ a.article:hover {
   background-image: url(background.png);
   background-position: center;
 }
+#smallText {
+  font-size: x-small;
+}
 
-/* ---------------------------------------------------
-    CONTENT STYLE
------------------------------------------------------ */
+/* CONTENT STYLE */
 
 #content {
   width: 100%;
@@ -227,4 +201,18 @@ a.article:hover {
   position: absolute;
   top: 0;
   right: 0;
+}
+#mainButton {
+  background: white !important;
+  color: black !important;
+  border: none;
+  width: 290px !important;
+  height: 39px !important;
+  text-align: center !important;
+  vertical-align: top !important;
+}
+
+.emptyDiv {
+  height: 30vh;
+  width: 100vh;
 }
